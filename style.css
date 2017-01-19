@@ -1,12 +1,18 @@
+@font-face {
+    font-family: FastFuriousFont;
+    src: url(Antique-Olive-Std-Nord-Italic.ttf);
+}
+
 body {
   background-color: lightgrey;
   font-size: 16px;
-  font-family: 'Helvetica';
+  font-family: FastFuriousFont;
+  padding: 2rem;
 }
 
 header {
   text-align: center;
-  margin-bottom: 5rem;
+  margin: 3rem 0px;
 }
 
 
@@ -31,12 +37,53 @@ ul {
 }
 
 .blog-post {
-  background-color: rebeccapurple;
   border-radius: 1rem;
-  height: 200px;
-  margin: 2rem;
+  height: 250px;
+  margin: 3rem;
+  padding: 2rem;
+}
+
+.blog-post > h1 {
+  color: #FFF;
+  margin-bottom: 3rem;
+}
+
+.blog-post > p {
+  font-size: 1.5rem;
 }
 
 .family-photo {
   width: 100%;
+}
+
+.purple {
+  background-color: rebeccapurple;
+}
+
+.red {
+  background-color: #A00;
+}
+
+.special-title {
+  background-color: #000;
+  color: #FFF;
+  border-radius: 2rem;
+  height: 4rem;
+  width: 70%;
+  line-height: 4rem;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+#quote-title:hover {
+  background-color: #A00;
+}
+
+#quote-of-the-day {
+  margin: 2rem 0px;
+  font-size: 1.5rem;
+}
+
+#dom-adventures {
+  margin-top: 3rem;
 }

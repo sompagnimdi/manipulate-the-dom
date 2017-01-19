@@ -8,10 +8,13 @@ var quotes = [
 ];
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  document.querySelector('#quote-of-the-day').innerText = quotes[Math.floor(Math.random() * quotes.length)];
-  // Do all of your work inside the document.addEventListener
-  // Solve each problem within a function
+  // Random quote of the day generator
+  var randomQuote = function() {
+    document.querySelector('#quote-of-the-day').textContent = `"${quotes[Math.floor(Math.random() * quotes.length)]}"`;
+  };
+  randomQuote();
   
+  // Do all of your work inside the document.addEventListener  
 
   // Part 1
 
