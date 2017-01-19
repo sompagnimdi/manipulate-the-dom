@@ -13,19 +13,19 @@ Tonight we're going to be practicing DOM manipulation and event handling.
 - Event Handling
 
 ## Resources
-This Gist has a helpful section on DOM querying and creation [DOM Gist](https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86)
+This [DOM Gist](https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86) has a helpful section on DOM querying and creation
 
 ## Setup
-You're provided a basic website with included `index.html`, `style.css`, and `script.js`. All of your work will go in `script.js`, you shouldn't have to edit `index.html` or `style.css`. Please write each solution inside of a function. Every solution should be its own function. Don't forget to call the function.
+You're provided a basic website with included `index.html`, `style.css`, and `script.js`. All of your work will go in `script.js` - you shouldn't have to edit `index.html` or `style.css`. Please create individual functions for each solution. Don't forget to **call** the function once you're finished.
 
 ## Completion
-Parts 1 through 8 required, Parts 9 and 10 are BONUS.
+Parts 1 through 8 are required, Part 9 is BONUS.
 
 ## Accessing DOM Elements (Querying)
 Let's start with some simple query selecting.
 
 #### Part 1
-DOM's personal website title is a bit wordy. Write a JavaScript statement that selects the `#main-title`. The element has an id of `#main-title` - remember there are a couple different ways of querying by **id**. Change the text of the title to something shorter.
+DOM's personal website title is a bit wordy. Write a JavaScript statement that selects the `#main-title` ID element. Remember there are a couple of ways to query **id**. Change the **text** of the title to something shorter.
 
 #### Part 2
 Select the `body` and change the background-color to a new color of your choice.
@@ -34,7 +34,7 @@ Select the `body` and change the background-color to a new color of your choice.
 Select **DOM's Favorite Things** list and remove the last list item.
 
 #### Part 4
-Select all `.special-title` class elements and change the `font-size` to `2rem`.
+Select all `.special-title` class elements and change their `font-size` to `2rem`. Remember you might have to iterate through the list of elements
 
 #### Part 5
 Turns out DOM never raced in **Chicago**. Access the **Past Races** list and remove **Chicago**.
