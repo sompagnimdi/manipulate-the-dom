@@ -1,0 +1,42 @@
+body {
+  background-color: lightgrey;
+  font-size: 16px;
+  font-family: 'Helvetica';
+}
+
+header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+
+img {
+  width: 50%;
+  border-radius: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.side-bar {
+  float: left;
+  width: 15%;
+}
+
+.main {
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+
+.blog-post {
+  background-color: rebeccapurple;
+  border-radius: 1rem;
+  height: 200px;
+  margin: 2rem;
+}
+
+.family-photo {
+  width: 100%;
+}
