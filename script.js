@@ -19,23 +19,28 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // Part 1
 
 
+  // Part 2
 
 
+  // Part 3
 
 
-
-  // document.body.style.backgroundColor = 'blue';
-
+  // Part 4
 
 
-  // 2. Append a new <li> with the text 'Fix cars' to Dom's Favorite Things
-
-  // 3. Remove the last <li> from Dom's Favorite Things
+  // Part 5
 
 
+  // Part 6
 
 
+  // Part 7
 
+
+  // Part 8
+
+
+  // Part 9
 
 
 

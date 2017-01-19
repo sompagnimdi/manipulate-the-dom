@@ -45,7 +45,7 @@ Turns out DOM never raced in **Chicago**. Access the **Past Races** list and rem
 Let's add to DOM's **Past Races** list. Create a new `<li>` element, change the new `<li>` text to the name of a city, and append it to the **Past Races** list.
 
 #### Part 7
-Create a new `.blog-post` corresponding to the new city added in **Part 6**. You will have to create a new `<div>` with class of `.blog-post`, `<h2>`, and `<p>` with some text.
+Create a new `.blog-post` corresponding to the new city added in **Part 6**. You will have to create a new `<div>` with class of `.blog-post`, a new `<h2>` with text, and a new `<p>` with some text. Think about what order you want to create the elements, and what order you want to append them in.
 
 ## Event Handlers
 
@@ -71,9 +71,6 @@ Test it out!
 > Hint:
 
 > Remember the document node property `.classList` and the document node method `.toggle()`.
-
-
-#### Part 10
 
 
 ## Homework Submission:
