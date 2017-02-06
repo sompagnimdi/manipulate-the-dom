@@ -2,7 +2,7 @@
 
 Can you really *manipulate* The DOM though?
 
-![Dom Toretto](https://i.giphy.com/uAo1LNpBnhhIc.gif)
+![Dom Toretto](https://media.giphy.com/media/XDb8RW95ZVLLW/giphy.gif)
 
 Yea I didn't think so... Thankfully we're not talking about *that* Dom.
 
