@@ -15,6 +15,8 @@ Tonight we're going to be practicing DOM manipulation and event handling.
 ## Resources
 This [DOM Gist](https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86) has a helpful section on DOM querying and creation
 
+[Eloquent Javascript](http://eloquentjavascript.net/13_dom.html)
+
 ## Setup
 You're provided a basic website with included `index.html`, `style.css`, and `script.js`. All of your work will go in `script.js` - you shouldn't have to edit `index.html` or `style.css`. Please create individual functions for each solution. Don't forget to **call** the function once you're finished.
 
@@ -53,7 +55,7 @@ Create a new `.blog-post` corresponding to the new city added in **Part 6**. You
 When you reload the page, the `script.js` file loads a random DOM quote. Let's play with the included function:
 
 ```javascript
-var randomQuote = function() {
+const randomQuote = function() {
   document.querySelector('#quote-of-the-day').innerText = `"${quotes[Math.floor(Math.random() * quotes.length)]}"`;
 };
 ```
@@ -75,4 +77,4 @@ Test it out!
 
 ## Homework Submission:
 
-Homework is due tonight by **11pm**. Follow the [Homework Guide](https://git.generalassemb.ly/wdi-nyc-1-30/syllabus/wiki/Homework-Submission) for submission instructions.
+Homework is due tonight by **11pm**. Follow the [Homework Guide](https://git.generalassemb.ly/nyc-wdi-hypatia/hypatia-students/blob/master/hw-workflow.md) for submission instructions.
