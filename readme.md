@@ -12,10 +12,11 @@ Tonight we're going to be practicing DOM manipulation and event handling.
 - DOM Manipulation
 - Event Handling
 
+## Required reading
+[Eloquent Javascript](http://eloquentjavascript.net/13_dom.html)
+
 ## Resources
 This [DOM Gist](https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86) has a helpful section on DOM querying and creation
-
-[Eloquent Javascript](http://eloquentjavascript.net/13_dom.html)
 
 ## Setup
 You're provided a basic website with included `index.html`, `style.css`, and `script.js`. All of your work will go in `script.js` - you shouldn't have to edit `index.html` or `style.css`. Please create individual functions for each solution. Don't forget to **call** the function once you're finished.
