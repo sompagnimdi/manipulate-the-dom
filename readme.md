@@ -6,7 +6,7 @@ Can you really *manipulate* The DOM though?
 
 Yea I didn't think so... Thankfully we're not talking about *that* Dom.
 
-Tonight we're going to be practicing DOM manipulation and event handling.
+Today we're going to be practicing DOM manipulation and event handling.
 
 ## Learning Objectives
 - DOM Manipulation
@@ -22,7 +22,7 @@ This [DOM Gist](https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f11
 You're provided a basic website with included `index.html`, `style.css`, and `script.js`. All of your work will go in `script.js` - you shouldn't have to edit `index.html` or `style.css`. Please create individual functions for each solution. Don't forget to **call** the function once you're finished.
 
 ## Completion
-Parts 1 through 8 are required, Part 9 is BONUS.
+Give it your best shot!
 
 ## Accessing DOM Elements (Querying)
 Let's start with some simple query selecting.
@@ -75,7 +75,3 @@ Test it out!
 
 > Remember the document node property `.classList` and the document node method `.toggle()`.
 
-
-## Homework Submission:
-
-Homework is due tonight by **11pm**. Follow the [Homework Guide](https://git.generalassemb.ly/nyc-wdi-hypatia/hypatia-students/blob/master/hw-workflow.md) for submission instructions.
